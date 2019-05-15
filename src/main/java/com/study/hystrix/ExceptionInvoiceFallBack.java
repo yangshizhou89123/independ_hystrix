@@ -54,6 +54,5 @@ public class ExceptionInvoiceFallBack extends HystrixCommand<String> {
         }catch (Exception ex){
             ex.printStackTrace();
         }
-
     }
 }
