@@ -7,7 +7,7 @@ import com.netflix.hystrix.exception.HystrixTimeoutException;
 
 /**
  *    测试各种异常是否能触发fallBack
- *
+ *    https://www.cnblogs.com/cowboys/p/7682009.html
  */
 public class ExceptionInvoiceFallBack extends HystrixCommand<String> {
 
